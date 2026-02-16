@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clickable Image Table</title>
+
+    <script>
+        function showTable() {
+            document.getElementById("info").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Click the Image</h2>
+
+    <!-- Image inside anchor tag -->
+    <a href="#" onclick="showTable()">
+        <img src="https://via.placeholder.com/150" alt="Click Image">
+    </a>
+
+    <!-- Table (hidden initially) -->
+    <table id="info" border="1" style="display:none; margin-top:15px;">
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>siri</td>
+            <td>ECE</td>
+            <td>4th</td>
+        </tr>
+        <tr>
+            <td>kowshik</td>
+            <td>mechanical</td>
+            <td>1st</td>
+        </tr>
+    </table>
+
+</body>
+</html>
